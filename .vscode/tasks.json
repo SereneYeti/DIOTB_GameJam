@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "DIOTB_GameJam Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"Win64",
+				"Debug",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"Win64",
+				"Debug",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DIOTB_GameJam Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"Win64",
+				"Debug",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"Win64",
+				"DebugGame",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"Win64",
+				"DebugGame",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DIOTB_GameJam Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"Win64",
+				"DebugGame",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"Win64",
+				"Development",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"Win64",
+				"Development",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DIOTB_GameJam Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"Win64",
+				"Development",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"Win64",
+				"Test",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"Win64",
+				"Test",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DIOTB_GameJam Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"Win64",
+				"Test",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"Win64",
+				"Shipping",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"Win64",
+				"Shipping",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DIOTB_GameJam Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"Win64",
+				"Shipping",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"IOS",
+				"Debug",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"IOS",
+				"Debug",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DIOTB_GameJam IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"IOS",
+				"Debug",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"IOS",
+				"DebugGame",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"IOS",
+				"DebugGame",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DIOTB_GameJam IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"IOS",
+				"DebugGame",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"IOS",
+				"Development",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"IOS",
+				"Development",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DIOTB_GameJam IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"IOS",
+				"Development",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"IOS",
+				"Test",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"IOS",
+				"Test",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DIOTB_GameJam IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"IOS",
+				"Test",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"IOS",
+				"Shipping",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"IOS",
+				"Shipping",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DIOTB_GameJam IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJam IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DIOTB_GameJam",
+				"IOS",
+				"Shipping",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJamEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJamEditor",
+				"Win64",
+				"Debug",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJamEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJamEditor",
+				"Win64",
+				"Debug",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DIOTB_GameJamEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJamEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DIOTB_GameJamEditor",
+				"Win64",
+				"Debug",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJamEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJamEditor",
+				"Win64",
+				"DebugGame",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJamEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJamEditor",
+				"Win64",
+				"DebugGame",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DIOTB_GameJamEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJamEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DIOTB_GameJamEditor",
+				"Win64",
+				"DebugGame",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJamEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJamEditor",
+				"Win64",
+				"Development",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJamEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DIOTB_GameJamEditor",
+				"Win64",
+				"Development",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DIOTB_GameJamEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		},
+		{
+			"label": "DIOTB_GameJamEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DIOTB_GameJamEditor",
+				"Win64",
+				"Development",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0"
+			}
+		}
+	]
+}

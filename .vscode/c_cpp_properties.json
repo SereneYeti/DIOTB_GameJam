@@ -1,0 +1,14 @@
+{
+	"configurations": [
+		{
+			"name": "DIOTB_GameJamEditor Editor Win64 Development (DIOTB_GameJam)",
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\.vscode\\compileCommands_DIOTB_GameJam.json"
+		},
+		{
+			"name": "Win32",
+			"intelliSenseMode": "msvc-x64",
+			"compileCommands": "F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\.vscode\\compileCommands_Default.json"
+		}
+	]
+}
