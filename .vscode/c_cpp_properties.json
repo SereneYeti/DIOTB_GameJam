@@ -1,14 +1,19 @@
 {
-	"configurations": [
-		{
-			"name": "DIOTB_GJ_20220521Editor Editor Win64 Development (DIOTB_GJ_20220521)",
-			"intelliSenseMode": "msvc-x64",
-			"compileCommands": "F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\.vscode\\compileCommands_DIOTB_GJ_20220521.json"
-		},
-		{
-			"name": "Win32",
-			"intelliSenseMode": "msvc-x64",
-			"compileCommands": "F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\.vscode\\compileCommands_Default.json"
-		}
-	]
+    "configurations": [
+        {
+            "name": "DIOTB_GJ_20220521Editor Editor Win64 Development (DIOTB_GJ_20220521)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\.vscode\\compileCommands_DIOTB_GJ_20220521.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
 }
