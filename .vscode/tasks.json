@@ -2,14 +2,14 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "DIOTB_GameJam Win64 Debug Build",
+			"label": "DIOTB_GJ_20220521 Win64 Debug Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"Win64",
 				"Debug",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -19,19 +19,19 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam Win64 Debug Rebuild",
+			"label": "DIOTB_GJ_20220521 Win64 Debug Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"Win64",
 				"Debug",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"DIOTB_GameJam Win64 Debug Clean"
+				"DIOTB_GJ_20220521 Win64 Debug Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -39,14 +39,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam Win64 Debug Clean",
+			"label": "DIOTB_GJ_20220521 Win64 Debug Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"Win64",
 				"Debug",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -56,14 +56,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam Win64 DebugGame Build",
+			"label": "DIOTB_GJ_20220521 Win64 DebugGame Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"Win64",
 				"DebugGame",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -73,19 +73,19 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam Win64 DebugGame Rebuild",
+			"label": "DIOTB_GJ_20220521 Win64 DebugGame Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"Win64",
 				"DebugGame",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"DIOTB_GameJam Win64 DebugGame Clean"
+				"DIOTB_GJ_20220521 Win64 DebugGame Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -93,14 +93,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam Win64 DebugGame Clean",
+			"label": "DIOTB_GJ_20220521 Win64 DebugGame Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"Win64",
 				"DebugGame",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -110,14 +110,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam Win64 Development Build",
+			"label": "DIOTB_GJ_20220521 Win64 Development Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"Win64",
 				"Development",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -127,19 +127,19 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam Win64 Development Rebuild",
+			"label": "DIOTB_GJ_20220521 Win64 Development Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"Win64",
 				"Development",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"DIOTB_GameJam Win64 Development Clean"
+				"DIOTB_GJ_20220521 Win64 Development Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -147,14 +147,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam Win64 Development Clean",
+			"label": "DIOTB_GJ_20220521 Win64 Development Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"Win64",
 				"Development",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -164,14 +164,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam Win64 Test Build",
+			"label": "DIOTB_GJ_20220521 Win64 Test Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"Win64",
 				"Test",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -181,19 +181,19 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam Win64 Test Rebuild",
+			"label": "DIOTB_GJ_20220521 Win64 Test Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"Win64",
 				"Test",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"DIOTB_GameJam Win64 Test Clean"
+				"DIOTB_GJ_20220521 Win64 Test Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -201,14 +201,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam Win64 Test Clean",
+			"label": "DIOTB_GJ_20220521 Win64 Test Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"Win64",
 				"Test",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -218,14 +218,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam Win64 Shipping Build",
+			"label": "DIOTB_GJ_20220521 Win64 Shipping Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"Win64",
 				"Shipping",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -235,19 +235,19 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam Win64 Shipping Rebuild",
+			"label": "DIOTB_GJ_20220521 Win64 Shipping Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"Win64",
 				"Shipping",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"DIOTB_GameJam Win64 Shipping Clean"
+				"DIOTB_GJ_20220521 Win64 Shipping Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -255,14 +255,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam Win64 Shipping Clean",
+			"label": "DIOTB_GJ_20220521 Win64 Shipping Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"Win64",
 				"Shipping",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -272,14 +272,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam IOS Debug Build",
+			"label": "DIOTB_GJ_20220521 IOS Debug Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"IOS",
 				"Debug",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -289,19 +289,19 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam IOS Debug Rebuild",
+			"label": "DIOTB_GJ_20220521 IOS Debug Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"IOS",
 				"Debug",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"DIOTB_GameJam IOS Debug Clean"
+				"DIOTB_GJ_20220521 IOS Debug Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -309,14 +309,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam IOS Debug Clean",
+			"label": "DIOTB_GJ_20220521 IOS Debug Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"IOS",
 				"Debug",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -326,14 +326,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam IOS DebugGame Build",
+			"label": "DIOTB_GJ_20220521 IOS DebugGame Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"IOS",
 				"DebugGame",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -343,19 +343,19 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam IOS DebugGame Rebuild",
+			"label": "DIOTB_GJ_20220521 IOS DebugGame Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"IOS",
 				"DebugGame",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"DIOTB_GameJam IOS DebugGame Clean"
+				"DIOTB_GJ_20220521 IOS DebugGame Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -363,14 +363,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam IOS DebugGame Clean",
+			"label": "DIOTB_GJ_20220521 IOS DebugGame Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"IOS",
 				"DebugGame",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -380,14 +380,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam IOS Development Build",
+			"label": "DIOTB_GJ_20220521 IOS Development Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"IOS",
 				"Development",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -397,19 +397,19 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam IOS Development Rebuild",
+			"label": "DIOTB_GJ_20220521 IOS Development Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"IOS",
 				"Development",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"DIOTB_GameJam IOS Development Clean"
+				"DIOTB_GJ_20220521 IOS Development Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -417,14 +417,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam IOS Development Clean",
+			"label": "DIOTB_GJ_20220521 IOS Development Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"IOS",
 				"Development",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -434,14 +434,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam IOS Test Build",
+			"label": "DIOTB_GJ_20220521 IOS Test Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"IOS",
 				"Test",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -451,19 +451,19 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam IOS Test Rebuild",
+			"label": "DIOTB_GJ_20220521 IOS Test Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"IOS",
 				"Test",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"DIOTB_GameJam IOS Test Clean"
+				"DIOTB_GJ_20220521 IOS Test Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -471,14 +471,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam IOS Test Clean",
+			"label": "DIOTB_GJ_20220521 IOS Test Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"IOS",
 				"Test",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -488,14 +488,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam IOS Shipping Build",
+			"label": "DIOTB_GJ_20220521 IOS Shipping Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"IOS",
 				"Shipping",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -505,19 +505,19 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam IOS Shipping Rebuild",
+			"label": "DIOTB_GJ_20220521 IOS Shipping Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"IOS",
 				"Shipping",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"DIOTB_GameJam IOS Shipping Clean"
+				"DIOTB_GJ_20220521 IOS Shipping Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -525,14 +525,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJam IOS Shipping Clean",
+			"label": "DIOTB_GJ_20220521 IOS Shipping Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"DIOTB_GameJam",
+				"DIOTB_GJ_20220521",
 				"IOS",
 				"Shipping",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -542,14 +542,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJamEditor Win64 Debug Build",
+			"label": "DIOTB_GJ_20220521Editor Win64 Debug Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJamEditor",
+				"DIOTB_GJ_20220521Editor",
 				"Win64",
 				"Debug",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -559,19 +559,19 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJamEditor Win64 Debug Rebuild",
+			"label": "DIOTB_GJ_20220521Editor Win64 Debug Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJamEditor",
+				"DIOTB_GJ_20220521Editor",
 				"Win64",
 				"Debug",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"DIOTB_GameJamEditor Win64 Debug Clean"
+				"DIOTB_GJ_20220521Editor Win64 Debug Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -579,14 +579,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJamEditor Win64 Debug Clean",
+			"label": "DIOTB_GJ_20220521Editor Win64 Debug Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"DIOTB_GameJamEditor",
+				"DIOTB_GJ_20220521Editor",
 				"Win64",
 				"Debug",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -596,14 +596,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJamEditor Win64 DebugGame Build",
+			"label": "DIOTB_GJ_20220521Editor Win64 DebugGame Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJamEditor",
+				"DIOTB_GJ_20220521Editor",
 				"Win64",
 				"DebugGame",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -613,19 +613,19 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJamEditor Win64 DebugGame Rebuild",
+			"label": "DIOTB_GJ_20220521Editor Win64 DebugGame Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJamEditor",
+				"DIOTB_GJ_20220521Editor",
 				"Win64",
 				"DebugGame",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"DIOTB_GameJamEditor Win64 DebugGame Clean"
+				"DIOTB_GJ_20220521Editor Win64 DebugGame Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -633,14 +633,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJamEditor Win64 DebugGame Clean",
+			"label": "DIOTB_GJ_20220521Editor Win64 DebugGame Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"DIOTB_GameJamEditor",
+				"DIOTB_GJ_20220521Editor",
 				"Win64",
 				"DebugGame",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -650,14 +650,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJamEditor Win64 Development Build",
+			"label": "DIOTB_GJ_20220521Editor Win64 Development Build",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJamEditor",
+				"DIOTB_GJ_20220521Editor",
 				"Win64",
 				"Development",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
@@ -667,19 +667,19 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJamEditor Win64 Development Rebuild",
+			"label": "DIOTB_GJ_20220521Editor Win64 Development Rebuild",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Build.bat",
 			"args": [
-				"DIOTB_GameJamEditor",
+				"DIOTB_GJ_20220521Editor",
 				"Win64",
 				"Development",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",
 			"dependsOn": [
-				"DIOTB_GameJamEditor Win64 Development Clean"
+				"DIOTB_GJ_20220521Editor Win64 Development Clean"
 			],
 			"type": "shell",
 			"options": {
@@ -687,14 +687,14 @@
 			}
 		},
 		{
-			"label": "DIOTB_GameJamEditor Win64 Development Clean",
+			"label": "DIOTB_GJ_20220521Editor Win64 Development Clean",
 			"group": "build",
 			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
 			"args": [
-				"DIOTB_GameJamEditor",
+				"DIOTB_GJ_20220521Editor",
 				"Win64",
 				"Development",
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-waitmutex"
 			],
 			"problemMatcher": "$msCompile",

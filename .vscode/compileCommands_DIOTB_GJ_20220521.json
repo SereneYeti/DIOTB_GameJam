@@ -1,0 +1,27 @@
+[
+	{
+		"file": "F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\Source\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.Build.cs",
+		"command": "C:\\MY_PROGRAMS\\VisualStudio\\2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe @F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\.vscode\\compileCommands_DIOTB_GJ_20220521\\DIOTB_GJ_20220521.211.rsp",
+		"directory": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\Source\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.cpp",
+		"command": "C:\\MY_PROGRAMS\\VisualStudio\\2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe @F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\.vscode\\compileCommands_DIOTB_GJ_20220521\\DIOTB_GJ_20220521.211.rsp",
+		"directory": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\Source\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.h",
+		"command": "C:\\MY_PROGRAMS\\VisualStudio\\2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe @F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\.vscode\\compileCommands_DIOTB_GJ_20220521\\DIOTB_GJ_20220521.211.rsp",
+		"directory": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\Source\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521GameModeBase.cpp",
+		"command": "C:\\MY_PROGRAMS\\VisualStudio\\2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe @F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\.vscode\\compileCommands_DIOTB_GJ_20220521\\DIOTB_GJ_20220521.211.rsp",
+		"directory": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\Source\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521GameModeBase.h",
+		"command": "C:\\MY_PROGRAMS\\VisualStudio\\2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe @F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\.vscode\\compileCommands_DIOTB_GJ_20220521\\DIOTB_GJ_20220521.211.rsp",
+		"directory": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Source"
+	}
+]

@@ -2,10 +2,10 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "Launch DIOTB_GameJam (Debug)",
+			"name": "Launch DIOTB_GJ_20220521 (Debug)",
 			"request": "launch",
-			"program": "F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
-			"preLaunchTask": "DIOTB_GameJam Win64 Debug Build",
+			"program": "F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "DIOTB_GJ_20220521 Win64 Debug Build",
 			"args": [
 			],
 			"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0",
@@ -18,10 +18,10 @@
 			}
 		},
 		{
-			"name": "Launch DIOTB_GameJam (DebugGame)",
+			"name": "Launch DIOTB_GJ_20220521 (DebugGame)",
 			"request": "launch",
-			"program": "F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
-			"preLaunchTask": "DIOTB_GameJam Win64 DebugGame Build",
+			"program": "F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "DIOTB_GJ_20220521 Win64 DebugGame Build",
 			"args": [
 			],
 			"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0",
@@ -34,10 +34,10 @@
 			}
 		},
 		{
-			"name": "Launch DIOTB_GameJam (Development)",
+			"name": "Launch DIOTB_GJ_20220521 (Development)",
 			"request": "launch",
-			"program": "F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\Binaries\\Win64\\UnrealGame.exe",
-			"preLaunchTask": "DIOTB_GameJam Win64 Development Build",
+			"program": "F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "DIOTB_GJ_20220521 Win64 Development Build",
 			"args": [
 			],
 			"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0",
@@ -50,10 +50,10 @@
 			}
 		},
 		{
-			"name": "Launch DIOTB_GameJam (Test)",
+			"name": "Launch DIOTB_GJ_20220521 (Test)",
 			"request": "launch",
-			"program": "F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
-			"preLaunchTask": "DIOTB_GameJam Win64 Test Build",
+			"program": "F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "DIOTB_GJ_20220521 Win64 Test Build",
 			"args": [
 			],
 			"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0",
@@ -66,10 +66,10 @@
 			}
 		},
 		{
-			"name": "Launch DIOTB_GameJam (Shipping)",
+			"name": "Launch DIOTB_GJ_20220521 (Shipping)",
 			"request": "launch",
-			"program": "F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
-			"preLaunchTask": "DIOTB_GameJam Win64 Shipping Build",
+			"program": "F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "DIOTB_GJ_20220521 Win64 Shipping Build",
 			"args": [
 			],
 			"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0",
@@ -82,12 +82,12 @@
 			}
 		},
 		{
-			"name": "Launch DIOTB_GameJamEditor (Debug)",
+			"name": "Launch DIOTB_GJ_20220521Editor (Debug)",
 			"request": "launch",
 			"program": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
-			"preLaunchTask": "DIOTB_GameJamEditor Win64 Debug Build",
+			"preLaunchTask": "DIOTB_GJ_20220521Editor Win64 Debug Build",
 			"args": [
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject"
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject"
 			],
 			"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0",
 			"stopAtEntry": false,
@@ -99,12 +99,12 @@
 			}
 		},
 		{
-			"name": "Launch DIOTB_GameJamEditor (DebugGame)",
+			"name": "Launch DIOTB_GJ_20220521Editor (DebugGame)",
 			"request": "launch",
 			"program": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
-			"preLaunchTask": "DIOTB_GameJamEditor Win64 DebugGame Build",
+			"preLaunchTask": "DIOTB_GJ_20220521Editor Win64 DebugGame Build",
 			"args": [
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject"
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject"
 			],
 			"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0",
 			"stopAtEntry": false,
@@ -116,12 +116,12 @@
 			}
 		},
 		{
-			"name": "Launch DIOTB_GameJamEditor (Development)",
+			"name": "Launch DIOTB_GJ_20220521Editor (Development)",
 			"request": "launch",
 			"program": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
-			"preLaunchTask": "DIOTB_GameJamEditor Win64 Development Build",
+			"preLaunchTask": "DIOTB_GJ_20220521Editor Win64 Development Build",
 			"args": [
-				"F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject"
+				"F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject"
 			],
 			"cwd": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0",
 			"stopAtEntry": false,
@@ -140,7 +140,7 @@
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=F:\\GameDev\\UnrealEngine\\DIOTB_GameJam\\DIOTB_GameJam.uproject",
+				"-project=F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521.uproject",
 				"-game",
 				"-engine"
 			],
