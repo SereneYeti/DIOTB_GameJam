@@ -33,5 +33,15 @@
 		"file": "F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\Source\\DIOTB_GJ_20220521\\DIOTB_GJ_20220521GameMode.h",
 		"command": "C:\\MY_PROGRAMS\\VisualStudio\\2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe @F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\.vscode\\compileCommands_DIOTB_GJ_20220521\\DIOTB_GJ_20220521.211.rsp",
 		"directory": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\Source\\DIOTB_GJ_20220521\\MovingPlatform.cpp",
+		"command": "C:\\MY_PROGRAMS\\VisualStudio\\2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe @F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\.vscode\\compileCommands_DIOTB_GJ_20220521\\DIOTB_GJ_20220521.211.rsp",
+		"directory": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\Source\\DIOTB_GJ_20220521\\MovingPlatform.h",
+		"command": "C:\\MY_PROGRAMS\\VisualStudio\\2022\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe @F:\\GameDev\\UnrealEngine\\DIOTB_GJ_20220521\\.vscode\\compileCommands_DIOTB_GJ_20220521\\DIOTB_GJ_20220521.211.rsp",
+		"directory": "C:\\MY_PROGRAMS\\Unreal\\UE_5.0\\Engine\\Source"
 	}
 ]
