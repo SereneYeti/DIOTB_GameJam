@@ -5,10 +5,10 @@ using System.Collections.Generic;
 
 public class DIOTB_GJ_20220521Target : TargetRules
 {
-	public DIOTB_GJ_20220521Target( TargetInfo Target) : base(Target)
+	public DIOTB_GJ_20220521Target(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "DIOTB_GJ_20220521" } );
+		ExtraModuleNames.Add("DIOTB_GJ_20220521");
 	}
 }
