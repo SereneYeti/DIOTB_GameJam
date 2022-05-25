@@ -53,7 +53,6 @@ ADIOTB_GJ_20220521Character::ADIOTB_GJ_20220521Character()
 
 //////////////////////////////////////////////////////////////////////////
 // Input
-
 void ADIOTB_GJ_20220521Character::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
 	// Set up gameplay key bindings

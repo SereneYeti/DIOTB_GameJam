@@ -24,7 +24,7 @@ public:
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Input)
 	float TurnRateGamepad;
-
+	
 protected:
 
 	/** Called for forwards/backward input */
